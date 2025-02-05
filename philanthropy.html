@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratan Tata Tribute - Philanthropy</title>
+    <link rel="stylesheet" href="styles/external.css">
+    <style>
+        .philanthropy-header {
+            background-image: linear-gradient(rgba(51, 1, 78, 0.6), rgba(0, 0, 0, 0.6)), url('https://placeholder.com/1600x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+        }
+        .philanthropy-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .philanthropy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+        }
+        .philanthropy-item {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .philanthropy-item:hover {
+            transform: translateY(-5px);
+        }
+        .philanthropy-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .philanthropy-content {
+            padding: 1.5rem;
+        }
+        .philanthropy-content h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .philanthropy-content p {
+            margin-bottom: 0;
+        }
+        .impact-section {
+            background-color: #0066cc;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 2rem auto 0;
+        }
+        .impact-item h3 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="philanthropy.html" class="active">Philanthropy</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="philanthropy-header">
+            <h1>Ratan Tata's Philanthropic Work</h1>
+            <p>A commitment to social responsibility and positive change</p>
+        </section>
+
+        <div class="philanthropy-grid">
+            <div class="philanthropy-item">
+                <img src="students.jpg" alt="Education Initiatives">
+                <div class="philanthropy-content">
+                    <h3>Education</h3>
+                    <p>Established scholarships and donated to educational institutions to support students from underprivileged backgrounds, including a $50 million grant to Harvard Business School.</p>
+                </div>
+            </div>
+            <div class="philanthropy-item">
+                <img src="hospital.cms" alt="Healthcare Initiatives">
+                <div class="philanthropy-content">
+                    <h3>Healthcare</h3>
+                    <p>Invested in cancer research and treatment facilities, including the Tata Memorial Center in Mumbai, which provides world-class cancer care to patients regardless of their ability to pay.</p>
+                </div>
+            </div>
+            <div class="philanthropy-item">
+                <img src="rural.jpeg" alt="Rural Development">
+                <div class="philanthropy-content">
+                    <h3>Rural Development</h3>
+                    <p>Supported various initiatives to improve living conditions and create employment opportunities in rural areas, including the Tata Trusts' work in over 170 districts across India.</p>
+                </div>
+            </div>
+            <div class="philanthropy-item">
+                <img src="natural disaster.jpeg" alt="Disaster Relief">
+                <div class="philanthropy-content">
+                    <h3>Disaster Relief</h3>
+                    <p>Provided financial aid and resources during natural disasters and emergencies in India and abroad, including significant contributions to relief efforts after the 2004 Indian Ocean tsunami.</p>
+                </div>
+            </div>
+            <div class="philanthropy-item">
+                <img src="environment.webp" alt="Environmental Conservation">
+                <div class="philanthropy-content">
+                    <h3>Environmental Conservation</h3>
+                    <p>Supported initiatives for environmental sustainability, including funding for clean energy projects and conservation efforts to protect India's biodiversity.</p>
+                </div>
+            </div>
+            <div class="philanthropy-item">
+                <img src="technology.png" alt="Technology Innovation">
+                <div class="philanthropy-content">
+                    <h3>Technology Innovation</h3>
+                    <p>Invested in startups and technology incubators to foster innovation and entrepreneurship in India, particularly in areas that address social and environmental challenges.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="impact-section">
+            <h2>The Impact of Ratan Tata's Philanthropy</h2>
+            <div class="impact-grid">
+                <div class="impact-item">
+                    <h3>1M+</h3>
+                    <p>Lives impacted through education initiatives</p>
+                </div>
+                <div class="impact-item">
+                    <h3>500K+</h3>
+                    <p>Patients treated at Tata Memorial Center annually</p>
+                </div>
+                <div class="impact-item">
+                    <h3>170+</h3>
+                    <p>Districts reached through rural development programs</p>
+                </div>
+                <div class="impact-item">
+                    <h3>$100M+</h3>
+                    <p>Donated for disaster relief efforts</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ratan Tata Tribute. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+

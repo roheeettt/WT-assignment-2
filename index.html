@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratan Tata Tribute - Home</title>
+    <link rel="stylesheet" href="styles/external.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://placeholder.com/2000x1000');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero-content {
+            max-width: 800px;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #004c99;
+        }
+        .intro {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+        .quote-section {
+            background-color: #f0f0f0;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .quote {
+            font-size: 2rem;
+            font-style: italic;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .quote-author {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 1rem;
+        }
+        .image-grid img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav id="main-nav">
+                <a href="index.html" class="logo">Ratan Tata Tribute</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="biography.html">Biography</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="philanthropy.html">Philanthropy</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Ratan Tata: A Visionary Leader</h1>
+                <p>Industrialist, Philanthropist, and Chairman Emeritus of Tata Sons</p>
+                <a href="#about" class="cta-button">Discover His Legacy</a>
+            </div>
+        </section>
+        
+        <section id="about" class="intro">
+            <h2>Welcome to the Ratan Tata Tribute Page</h2>
+            <p>Ratan Tata, born on December 28, 1937, is an Indian industrialist, philanthropist, and former chairman of Tata Sons. He has led the Tata Group to great heights and is known for his visionary leadership, ethical business practices, and commitment to social causes.</p>
+        </section>
+
+        <section class="quote-section">
+            <div class="quote">
+                "I don't believe in taking right decisions. I take decisions and then make them right."
+            </div>
+            <div class="quote-author">- Ratan Tata</div>
+        </section>
+
+      
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ratan Tata Tribute. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
